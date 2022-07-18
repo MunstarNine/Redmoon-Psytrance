@@ -178,11 +178,13 @@ void draw() {
         planeta[parseInt(screen.getIndex())].setRandomPosition();
       }
     }
+    text("Game by Munstar Studios",width - 120, height-20);
     screen.dibujar("Pulsa enter para jugar");
     screen.actualizar();
     screen.setPosX_Y(50,85);
     nave.dibujar();
     nave.setPosX_Y(30,height/2+random(5));
+    
     break;
     }
     //pantalla tutorial
@@ -627,7 +629,7 @@ if(pantallas == 0 || config){
   textAlign(CENTER);
   fill(255);
   text("Versión: 0.7.2 (estable)",70, height-20);
-  text("Game by Munstar Studios",width - 70, height-20);
+  
 }
 } 
 
