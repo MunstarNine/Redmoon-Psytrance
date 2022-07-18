@@ -60,7 +60,7 @@ float volFx = 0;
 float volMusic = 0;
 float contadorTiempo;
 float sizeSprites = 45;
-float cantidadBalas = 1000;
+float cantidadBalas = 100;
 float maxvidaJugador = 100;
 float vidaJugador = maxvidaJugador;
 float contadorAleatorio;
@@ -627,6 +627,7 @@ if(pantallas == 0 || config){
   textAlign(CENTER);
   fill(255);
   text("Versión: 0.7.2 (estable)",70, height-20);
+  text("Game by Munstar Studios",width - 70, height-20);
 }
 } 
 
